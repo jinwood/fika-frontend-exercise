@@ -1,0 +1,12 @@
+{
+  "name": "FikaSearch",
+  "displayName": "FikaSearch",
+  "expo": {
+    "name": "FikaSearch",
+    "slug": "FikaSearch",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
