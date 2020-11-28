@@ -4,7 +4,7 @@ Hi, thanks for taking the time to review my tech test submission for Fika.
 
 This was my first time using react-native, so I have spent most of my time writing utils and tests for demonstrating my abilities. The app frontend is minimal and where I would invest more time if it were available.
 
-![Demo](urlgoeshere)
+![Demo](https://github.com/jinwood/fika-frontend-exercise/blob/master/FikaSearch/demo.gif)
 
 My approach was to write a higher order hook `useMoviesGenres`, that returns a set of data from the two apis provided. Within the hook there are three functions `useComposeQueries`, `useQueryPipelines` and `mapGenresMovies`.
 
