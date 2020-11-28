@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { Text } from "react-native";
 import { FlatList } from "react-native-gesture-handler";
 import { useMoviesGenres } from "../hooks/movies";
 import { MovieItem } from "./MovieItem";

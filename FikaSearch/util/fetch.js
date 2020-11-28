@@ -1,22 +1,3 @@
-export const buildApiUrl = (endpoint, param) => {
-  const apiUrl = process.env.REACT_APP_API_URL;
-  if (!apiUrl) {
-    throw new Error("no api url defined");
-  }
-  let baseUrl = "";
-  if (!apiUrl.endsWith("/")) {
-    baseUrl = `${apiUrl}/`;
-  } else {
-    baseUrl = apiUrl;
-  }
-
-  let path = "";
-  switch (endpoint) {
-    default:
-      throw new Error("bad endpoint requested");
-  }
-  return `${baseUrl}${path}`;
-};
 const get = async (url) => {
   const requestOptions = {
     method: "GET",
